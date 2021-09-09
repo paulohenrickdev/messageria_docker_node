@@ -82,7 +82,7 @@ A baleia na barra de status indica uma instância do Docker em execução (e ace
 
 Verifique se o Docker Engine está instalado corretamente executando a hello-world imagem(digite no terminal):
 ```
-docker run hello-world.
+docker run hello-world
 ```
 ##### Instalação em Linux
 Para instalar o Docker Engine, você precisa da versão de 64 bits de uma destas versões do Ubuntu:
@@ -140,5 +140,11 @@ O menu Docker exibe a janela Acordo de serviço de assinatura do Docker. Inclui 
 
 Verifique se o Docker Engine está instalado corretamente executando a hello-world imagem(digite no terminal):
 ```
-docker run hello-world.
+docker run hello-world
+```
+
+## :rocket: Executando o projeto
+Logo após baixar o projeto, rodar o comando dentro da pasta para criar a imagem
+```
+docker-compose up
 ```
